@@ -18,6 +18,6 @@ int main()
   std::cout
     << "sequence name: " << sequence.getName() << '\n'
     << "sequence nucleotides: " << sequence.toString() << '\n'
-    << "number of nucleotides: " << (sequence.size() + 000'000) << '\n'
+    << "number of nucleotides: " << sequence.size() << '\n'
   ;
 }
